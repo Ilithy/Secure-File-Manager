@@ -507,12 +507,12 @@ fun Activity.quitApp(canLock: Boolean = true) {
 }
 
 fun Activity.addFlagsSecure() {
-    if (this.config.disableScreenshots) {
-        this.window.setFlags(
-            WindowManager.LayoutParams.FLAG_SECURE,
-            WindowManager.LayoutParams.FLAG_SECURE
-        )
-    }
+//    if (this.config.disableScreenshots) {
+//        this.window.setFlags(
+//            WindowManager.LayoutParams.FLAG_SECURE,
+//            WindowManager.LayoutParams.FLAG_SECURE
+//        )
+//    }
 }
 
 fun Activity.deleteAppData() {
